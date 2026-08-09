@@ -6,4 +6,4 @@
 #include <vector>
 #include <string>;
 
-double calculateBF(double tKelvin, double Energy);
+double calculateBF(double E_eV, double T_kelvin);

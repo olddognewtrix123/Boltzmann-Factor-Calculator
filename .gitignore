@@ -5,3 +5,5 @@ x64/
 *.obj
 *.exe
 *.log
+CalBF_Tests/x64/
+CalBF_Tests/*.vcxproj.user

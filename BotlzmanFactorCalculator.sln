@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BotlzmanFactorCalculator", "BotlzmanFactorCalculator.vcxproj", "{3F01D6A2-1498-42CA-BBE0-D1468D90E253}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalcBF_Tests", "CalBF_Tests\CalBF_Tests.vcxproj", "{961DCA4A-648E-433B-9170-1A61560BD892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{3F01D6A2-1498-42CA-BBE0-D1468D90E253}.Release|x64.Build.0 = Release|x64
 		{3F01D6A2-1498-42CA-BBE0-D1468D90E253}.Release|x86.ActiveCfg = Release|Win32
 		{3F01D6A2-1498-42CA-BBE0-D1468D90E253}.Release|x86.Build.0 = Release|Win32
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Debug|x64.ActiveCfg = Debug|x64
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Debug|x64.Build.0 = Debug|x64
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Debug|x86.ActiveCfg = Debug|Win32
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Debug|x86.Build.0 = Debug|Win32
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Release|x64.ActiveCfg = Release|x64
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Release|x64.Build.0 = Release|x64
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Release|x86.ActiveCfg = Release|Win32
+		{961DCA4A-648E-433B-9170-1A61560BD892}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
