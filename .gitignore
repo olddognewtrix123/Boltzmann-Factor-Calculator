@@ -1,9 +1,11 @@
 .vs/
 x64/
+Botlzman.3f01d6a2/
+CalBF_Tests/x64/
 *.ilk
 *.pdb
 *.obj
 *.exe
 *.log
-CalBF_Tests/x64/
-CalBF_Tests/*.vcxproj.user
+*.vcxproj.user
+*.vcxproj.filters.user

@@ -1,0 +1,24 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build solution (Debug|x64)
+        run: msbuild BotlzmanFactorCalculator.sln /p:Configuration=Debug /p:Platform=x64 /m
+
+      - name: Run automated tests
+        run: .\x64\Debug\CalcBF_Tests.exe

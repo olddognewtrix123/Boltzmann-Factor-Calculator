@@ -10,6 +10,7 @@
 
 int main()
 {
+	// User enters a temperature in Kelvin and an energy in eV then gets the Boltzmann Factor 
     std::cout << "Welcome to the Boltzmann Factor Caculcator!\n";
 
 	double TfromUser;
